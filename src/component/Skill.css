@@ -1,0 +1,50 @@
+.skills {
+  width: 100%;
+  max-width: 1000px;
+  /* padding: 0 20px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.skill-name {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.skill-bar {
+  margin: 20px;
+  height: 15px;
+  background: #cacaca;
+  border-radius: 8px;
+}
+.skill-per {
+  height: 15px;
+  background-color: #f05a48;
+  border-radius: 8px;
+  width: 0;
+  position: relative;
+  transition: 1s linear;
+}
+.skill-per::before {
+  content: attr(per);
+  position: absolute;
+  padding: 4px 6px;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+.skill-per::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  top: -16px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 2px;
+}
