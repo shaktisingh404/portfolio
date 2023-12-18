@@ -14,7 +14,13 @@ function Main() {
         </div>
       </div>
 
-      <img src={headerimg} id='header-img' height='200' width='1000' />
+      <img
+        src={headerimg}
+        alt='hero-img'
+        id='header-img'
+        height='200'
+        width='1000'
+      />
     </>
   );
 }
