@@ -11,9 +11,15 @@ const Nav = () => {
     <nav class='nav-bar'>
       <lable id='logo'>Shakti</lable>
       <div className='logos-img'>
-        <img src={instagram} alt='Instagram' width='20' height='20' />
-        <img src={linkdin} alt='linkdin' width='20' height='20' />
-        <img src={twitter} alt='twitter' width='20' height='20' />
+        <a href='https://www.instagram.com/shaktisingh4o4/'>
+          <img src={instagram} alt='Instagram' width='20' height='20' />
+        </a>
+        <a href='https://in.linkedin.com/in/shaktisingh404'>
+          <img src={linkdin} alt='linkdin' width='20' height='20' />
+        </a>
+        <a href='/'>
+          <img src={twitter} alt='twitter' width='20' height='20' />
+        </a>
       </div>
     </nav>
   );

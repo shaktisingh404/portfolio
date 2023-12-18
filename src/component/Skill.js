@@ -28,21 +28,27 @@ const Skill = () => {
       <h2 className='title'>Skills and Expertise </h2>
       <div className='skills'>
         <div className='skill'>
-          <div className='skill-name'>HTML</div>
+          <div className='skill-name'>MERN</div>
           <div className='skill-bar'>
-            <div className='skill-per' per='93'></div>
+            <div className='skill-per' per='60'></div>
           </div>
         </div>
         <div className='skill'>
-          <div className='skill-name'>CSS</div>
+          <div className='skill-name'>Java</div>
           <div className='skill-bar'>
-            <div className='skill-per' per='75'></div>
+            <div className='skill-per' per='80'></div>
           </div>
         </div>
         <div className='skill'>
-          <div className='skill-name'>JavaScript</div>
+          <div className='skill-name'>Python</div>
           <div className='skill-bar'>
-            <div className='skill-per' per='55'></div>
+            <div className='skill-per' per='60'></div>
+          </div>
+        </div>
+        <div className='skill'>
+          <div className='skill-name'>DSA</div>
+          <div className='skill-bar'>
+            <div className='skill-per' per='40'></div>
           </div>
         </div>
       </div>
